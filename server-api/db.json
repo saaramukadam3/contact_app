@@ -1,0 +1,91 @@
+{
+  "contacts": [
+    {
+      "id": "2fac05d5-896f-4e70-b2b2-bb211a7f0b7f",
+      "name": "Test",
+      "email": "test@gmail.com"
+    },
+    {
+      "id": "be63291a-99c5-4289-a4c3-9d92dc037669",
+      "name": "iiht",
+      "email": "iiht@gmail.com",
+      "phone": "8859032562",
+      "address": "kharghar"
+    },
+    {
+      "id": "97cd5ae4-0966-4a95-a1d1-67d80805bedf",
+      "name": "Ayesha",
+      "email": "ayesha@gmail.com"
+    },
+    {
+      "id": "d10586f8-4b1e-479e-8dc0-8f3ee000ecae",
+      "name": "Saara",
+      "email": "saara123@gmail.com"
+    },
+    {
+      "id": "1ba4e090-fc66-4edc-9e08-983330cddd09",
+      "name": "max",
+      "email": "max@mail.com"
+    },
+    {
+      "id": "0b39967f-3ff8-4a96-b4b0-09baa309ac79",
+      "name": "Madiha",
+      "email": "madiha23@gmail.com"
+    },
+    {
+      "id": "d7262a7f-7082-4315-b7a6-06aa6f266fbf",
+      "name": "Dipesh",
+      "email": "dipesh@gmail.com"
+    },
+    {
+      "id": "70ae00eb-0e02-4f98-bc42-ddcf317e4d0b",
+      "name": "mom",
+      "email": "mummy@mail.com"
+    },
+    {
+      "id": "2463f165-879f-4086-aade-d2cbcfde95b5",
+      "name": "husain12",
+      "email": "husain@gmail.com"
+    },
+    {
+      "id": "02d3fd9c-bf5c-4de0-8198-4bb76a312829",
+      "name": "Daddy",
+      "email": "daddy@gmail.com",
+      "phone": "09876543210",
+      "address": "pune"
+    },
+    {
+      "id": "c24af2c5-72a8-4c06-957c-ef3a28161077",
+      "name": "Ricci",
+      "email": "ricci@mail.com"
+    },
+    {
+      "id": "33b18ba6-ab43-4352-9403-5698136a3ff7",
+      "name": "SSB",
+      "email": "ssb@mail.com",
+      "phone": "7798143023",
+      "address": "Taloja(navi-mumbai)"
+    },
+    {
+      "id": "2baf640c-d985-4375-ae3c-ffe0ecb0305d",
+      "name": "lutu",
+      "email": "lutu@gmail.com",
+      "phone": "9876543210",
+      "address": "chiplun"
+    },
+    {
+      "id": "940aed88-91ef-49f0-b66b-00699f2d0ae1",
+      "name": "saara",
+      "email": "saara24@gmail.com",
+      "phone": "57475577564",
+      "address": "delhi"
+    },
+    {
+      "id": "4de6cfb7-89b2-45a2-af72-0f3d528341f4",
+      "name": "lutu",
+      "email": "lutu@mail.com",
+      "phone": "5747557756457",
+      "address": "chiplun"
+    }
+  ]
+}
