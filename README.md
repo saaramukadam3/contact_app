@@ -1,28 +1,35 @@
 # 📇 Contact App Manager
 
-A simple and user-friendly Contact App Manager that allows users to add, view, update, search, and delete contacts efficiently.  
-This project is built to understand CRUD operations and basic application logic.
+A simple, responsive, and user-friendly *Contact App Manager* built using *React.js*.  
+This application allows users to *add, view, edit, search, and delete contacts, demonstrating core **CRUD operations* and modern frontend practices.
 
 ---
 
-## 🚀 Features
-
-- ➕ Add new contacts  
-- 📋 View all saved contacts  
-- ✏️ Update contact details  
-- 🔍 Search contacts by name or number  
-- ❌ Delete contacts  
-- 💾 Data stored locally (file / database)
+## 🚀 Live Demo
+🔗 https://saara-contact-app-manager.netlify.app
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠 Tech Stack
+- *React.js*
+- *JavaScript (ES6+)*
+- *HTML5*
+- *CSS3*
+- *React Router DOM*
+- *Axios*
+- *UUID*
+- *LocalStorage*
+- *JSON Server (Mock API)*
 
-- Python  
-- (Optional) Flask / Django (if web-based)  
-- HTML  
-- CSS  
-- JavaScript  
-- SQLite / File Handling  
+---
+
+## ✨ Features
+- ➕ Add new contacts
+- ✏️ Edit existing contacts
+- 🗑 Delete contacts
+- 🔍 Search contacts in real-time
+- 💾 Persistent data using LocalStorage
+- 🌐 API integration using Axios
+- 📱 Fully responsive UI
 
 ---
