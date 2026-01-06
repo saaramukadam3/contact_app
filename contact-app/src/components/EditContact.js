@@ -1,64 +1,5 @@
-// import React, { useState } from "react";
-// import { useLocation, useNavigate } from "react-router-dom";
-// //import { useContactsCrud } from "../context/ContactsCrudContext";
-
-
-// const EditContact = (props) => {
-//   const location = useLocation();
-//   const navigate = useNavigate();
-//   const { id, name, email } = location.state.contact;
-//   const [newEmail, setNewEmail] = useState(email);
-//   const [newName, setNewName] = useState(name);
-//   //const { updateContactHandler } = useContactsCrud();
-
-//   const update = (e) => {
-//     e.preventDefault();
-//     if (newName === "" || newEmail === "") {
-//       alert("All fields are mandatory!");
-//       return;
-//     }
-//    props.updateContactHandler({id, name: newName, email: newEmail });
-//     setNewName("");
-//     setNewEmail("");
-//     navigate("/");
-//   };
-
-//   return (
-//     <div className="ui main">
-//       <h2>Edit Contact</h2>
-//       <form className="ui form" onSubmit={update}>
-//         <div className="field">
-//           <label>Name</label>
-//           <input
-//             type="text"
-//             name="name"
-//             placeholder="Name"
-//             value={newName}
-//             onChange={(e) => setNewName(e.target.value)}
-//           />
-//         </div>
-//         <div className="field">
-//           <label>Email</label>
-//           <input
-//             type="text"
-//             name="email"
-//             placeholder="Email"
-//             value={newEmail}
-//             onChange={(e) => setNewEmail(e.target.value)}
-//           />
-//         </div>
-//         <button className="ui button blue">Update</button>
-//       </form>
-//     </div>
-//   );
-// };
-
-// export default EditContact;
 import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-//import { useContactsCrud } from "../context/ContactsCrudContext";
-
-
 const EditContact = (props) => {
   const location = useLocation();
   const navigate = useNavigate();
@@ -67,8 +8,7 @@ const EditContact = (props) => {
   const [newEmail, setNewEmail] = useState(email);
   const [newPhone, setNewPhone] = useState(phone || ''); // Initialize with existing phone, or empty string if null/undefined
   const [newAddress, setNewAddress] = useState(address || ''); // Initialize with existing address, or empty string
-  //const { updateContactHandler } = useContactsCrud();
-
+  
   const update = (e) => {
     e.preventDefault();
     if (newName === "" || newEmail === "" || newPhone === "" || newAddress === "") { // Updated condition
@@ -85,11 +25,7 @@ const EditContact = (props) => {
       address: newAddress
     };
 
-   props.updateContactHandler(updatedContact); // Pass the updated contact
-    //setNewName("");  //Remove this and the other set calls
-    //setNewEmail("");
-    //setNewPhone("");
-    //setNewAddress("");
+   props.updateContactHandler(updatedContact); 
     navigate("/");
   };
 
