@@ -33,3 +33,9 @@ This application allows users to add, view, edit, search, and delete contacts, d
 - 📱 Fully responsive UI
 
 ---
+## 📸 Screenshots
+<img width="857" height="421" alt="image" src="https://github.com/user-attachments/assets/465c0d3b-0342-467e-bd56-ae38e9fb7959" />
+<img width="839" height="410" alt="image" src="https://github.com/user-attachments/assets/e80b5e2b-9466-4c30-8221-aebd278b8312" />
+<img width="879" height="429" alt="image" src="https://github.com/user-attachments/assets/d210d4d3-48a8-4aa2-bd20-0e89d44bda29" />
+
+
